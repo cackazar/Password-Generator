@@ -12,10 +12,10 @@ if len(disallowedSymbols) > 0:
         if disallowedSymbols[i] in symbols:
             symbols.remove(disallowedSymbols[i])
 
-totalNum = 5
-totalLowercase = 5
-totalUppercase = 5
-totalSymbols = 5
+totalNum = 0
+totalLowercase = 0
+totalUppercase = 0
+totalSymbols = 0
 
 emptyContainer = []
 password = []
